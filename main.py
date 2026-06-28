@@ -8,6 +8,15 @@ nombre = input("ingrese nombre del cliente:\t\t\t")
 DatosCompletos = nombre + " " + apellido  
 print("*************** Tipo de cambio  ****************")
 Tipodecambio = float(input("Ingrese tipo de cambio a SOLES:\t\t"))
+print("*************** Automovil ****************")
+marca = input("Ingrese marca de automovil : \t\t")
+modelo = input("ingrese modelo de automovil : \t\t")
+año = int(input("Ingrese año del automovil :\t\t\t"))
+preciodeventaendolares = float(input("Ingrese precio de venta en (dolares):\t"))
+
+print("*************** Tipo de cambio  ****************")
+Tipodecambio = float(input("Ingrese tipo de cambio a SOLES:\t\t"))
+
 
 #calculando
 MontoimpuestoDolares = preciodeventaendolares * 0.19
