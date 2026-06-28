@@ -24,3 +24,9 @@ MontopagoDolares = preciodeventaendolares + MontoimpuestoDolares
 
 MontoInpuestoSoles = MontoimpuestoDolares * Tipodecambio
 MontoPagoSoles = MontopagoDolares * Tipodecambio
+#generando el comprovante de pago 
+Numcomprobante = input("ingrese el numero de comprovante : \t")
+fechaAhora = datetime.now()
+Año = fechaAhora.year
+mes = fechaAhora.month
+Dia= fechaAhora.day
